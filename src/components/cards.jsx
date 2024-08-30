@@ -1,11 +1,9 @@
 function Cards({ product }) {
-
-
     return (
         <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-wrap -m-4">
-                    {product?.map((val) => {
+                    {product.map((val) => {
                         return (
                             <div key={val.id} className="p-4 md:w-1/3 ">
                                 <div className="mainDiv h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden  ">

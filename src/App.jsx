@@ -59,7 +59,7 @@ function App() {
           ))}
         </select>
         <button className='searchBtn' onClick={searchProduct}>
-          <SearchOutlined className='iconSearch' /> Search
+          <SearchOutlined className='iconSearch' /> search
         </button>
 
         <div className="demo-logo" />
