@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0%;
+}
+
+.dropMain{
+  font-size: 1.3rem;
+  color: white !important;
+}
+
+
+
+.layoutMain{
+  height: fit-content;
+}
+
+
+.mainDiv img{
+  object-fit: contain;
+  
+}
+
+select{
+  border: none ;
+  padding: 8px;
+  border-radius: 10px ;
+  outline: none;
+}
+.searchBtn{
+  color: black;
+  background-color: white;
+padding : 0px  10px ;
+border-radius: 10px ;
+height: 38px !important;
+margin-left: 10px ;
+display: flex;
+
+align-items: center;
+}
+
+.iconSearch{
+  font-size: 16px ;
+  display: flex;
+}
